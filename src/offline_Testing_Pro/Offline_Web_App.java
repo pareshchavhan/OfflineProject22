@@ -37,7 +37,7 @@ System.out.println("in the browswr===1");
 			
 			System.setProperty("webdriver.chrome.driver", "Resources/chromedriver.exe");
 			Offline = new ChromeDriver();
-			Offline.get("file:///D:/Paresh/Seleniamsoft/other/Offline%20Website%20_%20new/index.html");
+			Offline.get("file:///F:/Paresh/Seleniamsoft/other/Offline%20Website%20_%20new/index.html");
 		}
 		 if("explorer".equals(Ch))
 		{
@@ -45,7 +45,7 @@ System.out.println("in the browswr===1");
 			System.setProperty("webdriver.ie.driver", "Resources/IEDriverServer.exe");
 			I =new InternetExplorerDriver();
 			
-			I.get("file:///D:/Paresh/Seleniamsoft/other/Offline%20Website%20_%20new/index.html");
+			I.get("file:///F:/Paresh/Seleniamsoft/other/Offline%20Website%20_%20new/index.html");
 			//I.get("D:\Paresh\Seleniamsoft\other\Offline Website _ new\index.html");
 		}
 		else
